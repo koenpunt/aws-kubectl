@@ -22,9 +22,9 @@ spec:
               - "/run.sh"
             env:
               - name: AWS_ACCOUNT
-                value: "YOUR-AWS-ACCOUNT"
+                value: "$AWS_ACCOUNT_ID"
               - name: AWS_REGION
-                value: "eu-central-1"
+                value: "$AWS_REGION"
               - name: NAMESPACES
                 value: "default infrastructure"
               - name: AWS_ACCESS_KEY_ID

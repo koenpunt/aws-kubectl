@@ -1,1 +1,3 @@
 .idea
+templates/aws-secrets.yml
+templates/ecr-cron.yml
